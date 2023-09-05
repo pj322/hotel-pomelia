@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: grey;
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover {
+    color:beige;
+}
+
+a:active {
+    color: #373737;
+}
+
+/*Pagina Titolo*/
+.photo {
+    background-image: url('images/hotelp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local; /*image scrool*/
+    background-size: cover; /*full screen*/
+}
+
+.icon {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 30px;
+}
+
+.title{
+    color: #F25C05;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+
+    padding-left: 50px;
+    padding-bottom: 150px;
+    margin-top: 250px;
+    text-align: justify;
+
+    width: 800px;
+}
+
+.title h1 {
+    font-size: 90px;
+}
+
+.title p {
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal italic;
+}
+
+.title .prenota {
+    background-color:#F25C05;
+    color: #373737;
+
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 20px;
+    text-align: center;
+    width:200px;
+    margin: 20px auto;
+
+    border: 2px solid #373737;
+    border-radius: 5px;
+}
+
+.prenota:hover{
+    background-color: #ba4705;
+    transition: 0.7s; /*transizione lieve*/
+}
+/*Mission*/
+.mission {
+    background-color: #403B39;
+    padding: 30px;
+    background-image: url('images/green.png');
+    background-repeat: no-repeat;
+    background-attachment: local; /*image scrool*/
+    background-size: contain; /*full screen*/
+}
+
+.mission h1 {
+    color:#F25C05;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission .text {
+    text-align: justify;
+    color:beige;
+    padding-top: 30px;
+    width: 900px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.mission .text h3 {
+    color:#F25C05;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #201f1f;
+    width: 100%;
+    color:beige;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Noto Sans Display', sans-serif;
+}
+
+.footer h4 {
+    font-size: 25px;
+    padding-bottom:10px;
+}
+
+.footer .social-bar {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/* copyright*/
+.footer .copyright{
+    background: #000; 
+    padding: 10px 0;
+}
+.footer .copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
